@@ -1,9 +1,9 @@
 {
     "name": "Karanan",
     "description": "Karanan bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.ibb.co/K5bqKHr/20210928-161812.png",
+    "logo": "Karanan.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/aju001/Karanan_v2",
+    "repository": "https://github.com/TheBlackLion17001/Karanan_v2",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
@@ -74,7 +74,7 @@
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
-            "value": "Karanan by aju"
+            "value": "Karanan by TheBlackLion17"
        },    
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
