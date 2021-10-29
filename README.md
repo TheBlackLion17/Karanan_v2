@@ -10,11 +10,11 @@
 </p>
   </p>
 <p align="center">
-<a href="https://github.com/TheBlackLion17001"><img title="TheBlackLion17" src="https://img.shields.io/badge/author-TheBlackLion17001?color=blue&style=for-the-badge&logo=github"></a>
+<a href="https://github.com/TheBlackLion17"><img title="TheBlackLion17" src="https://img.shields.io/badge/author-TheBlackLion17?color=blue&style=for-the-badge&logo=github"></a>
 
 </div>
 <p align="center">
-Project created by <a href="https://github.com/TheBlackLion17001">TheBlackLion17</a> to make it public
+Project created by <a href="https://github.com/TheBlackLion17">TheBlackLion17</a> to make it public
     <br>
        | © |
         Reserved |
@@ -24,13 +24,13 @@ Project created by <a href="https://github.com/TheBlackLion17001">TheBlackLion17
 ----
 
   <p align="center">
-  <a href="https://github.com/TheBlackLion17001/Karanan_v2 ">
-    <img src="https://img.shields.io/github/repo-size/TheBlackLion17001/Karanan_v2?color=red&label=Repo%20total%20size&style=flat-square">
+  <a href="https://github.com/TheBlackLion17/Karanan_v2 ">
+    <img src="https://img.shields.io/github/repo-size/TheBlackLion17/Karanan_v2?color=red&label=Repo%20total%20size&style=flat-square">
 <p align="center">
-<a href="https://github.com/TheBlackLion17001/followers"><img title="Followers" src="https://img.shields.io/github/followers/TheBlackLion17001?color=grey&style=plastic"></a>
-<a href="https://github.com/TheBlackLion17001/Karanan_v2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TheBlackLion17001/Karanan?color=grey&style=plastic"></a>
-<a href="https://github.com/TheBlackLion17001/Karanan_v2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TheBlackLion17001/Karanan_v2?color=grey&style=plastic"></a>
-<a href="https://github.com/TheBlackLion17001/Karanan_v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TheBlackLion17001/Karanan_v2?label=Watchers&color=grey&style=flat-circle"></a>
+<a href="https://github.com/TheBlackLion17/followers"><img title="Followers" src="https://img.shields.io/github/followers/TheBlackLion17?color=grey&style=plastic"></a>
+<a href="https://github.com/TheBlackLion17/Karanan_v2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TheBlackLion17/Karanan?color=grey&style=plastic"></a>
+<a href="https://github.com/TheBlackLion17/Karanan_v2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TheBlackLion17/Karanan_v2?color=grey&style=plastic"></a>
+<a href="https://github.com/TheBlackLion17/Karanan_v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TheBlackLion17/Karanan_v2?label=Watchers&color=grey&style=flat-circle"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-red.svg"</a>
 <h3 align="center">Contact Me:</h3>
 
@@ -70,9 +70,9 @@ the user is responsible.
 
   ### <u> Simple Method <u>
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TheBlackLion170011/Karananv2-Qr)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@TheBlackLion171/Karananv2-Qr)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheBlackLion17001/Karanan_v2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheBlackLion17/Karanan_v2)
      </div>
 <br>
 <br >
@@ -86,7 +86,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/TheBlackLion17001/Karanan_v2
+$ git clone https://github.com/TheBlackLion17/Karanan_v2
 $ cd Karanan_v2
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -96,7 +96,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/TheBlackLion17001/Karanan_v2
+$ git clone https://github.com/TheBlackLion17/Karanan_v2
 $ cd Karanan_v2
 $ chmod +x *
 $ npm i
@@ -135,9 +135,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![TheBlackLion17](https://github.com/TheBlackLion17001.png?size=100)](https://github.com/TheBlackLion17001)
+  [![TheBlackLion17](https://github.com/TheBlackLion17.png?size=100)](https://github.com/TheBlackLion17)
 
-[TheBlackLion17](https://github.com/TheBlackLion17001)  
+[TheBlackLion17](https://github.com/TheBlackLion17)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
   </div>
 
