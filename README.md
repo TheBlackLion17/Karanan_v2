@@ -4,7 +4,7 @@
 
 
 <div align="center">
-  <a href="https://ibb.co/4wyvT9j"><img src="Karanan.jpg""width="200" height="200"/>
+  <a href="https://ibb.co/4wyvT9j"><img src="Karnan.jpg""width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="Karanan_v2" src="https://img.shields.io/badge/-Karanan-red?&style=for-the-badge"></a>
 </p>
