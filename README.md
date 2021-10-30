@@ -135,7 +135,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![TheBlackLion17](https://github.com/Karanan.jpg?size=100)](https://github.com/TheBlackLion17)
+  [AK KARMA](https://github.com/TheBlackLion17)
 
 [TheBlackLion17](https://github.com/TheBlackLion17)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
