@@ -1,12 +1,12 @@
 <div align="center">
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Karnan_v2+WA+Bot...;Created+by+Aju....;This+is+a+Bgm+stickerbot...;With+more+features...)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Karnan_v2+WA+Bot...;Created+by+AkKarma....;This+is+a+Bgm+stickerbot...;With+more+features...)](https://git.io/typing-svg)
 
 
 <div align="center">
   <a href="https://ibb.co/4wyvT9j"><img src="Karnan_V2.png""width="250" height="250"/>
   <p align="center">
-<a href="#"><img title="Karnan_v2" src="https://img.shields.io/badge/-Karnan-red?&style=for-the-badge"></a>
+<a href="#"><img title="Karnan_v2" src="https://img.shields.io/badge/-Karnan_v2-black?&style=for-the-badge"></a>
 </p>
   </p>
 <p align="center">
@@ -14,7 +14,7 @@
 
 </div>
 <p align="center">
-Project created by <a href="https://github.com/TheBlackLion17">aju</a> to make it public
+Project created by <a href="https://github.com/TheBlackLion17">akkarma</a> to make it public
     <br>
        | © |
         Reserved |
