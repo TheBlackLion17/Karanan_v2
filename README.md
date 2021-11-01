@@ -4,7 +4,7 @@
 
 
 <div align="center">
-  <a href="https://ibb.co/4wyvT9j"><img src="https://i.ibb.co/K5bqKHr/20210928-161812.png""width="170" height="170"/>
+  <a href="https://ibb.co/4wyvT9j"><img src="Karnan_V2.png""width="250" height="250"/>
   <p align="center">
 <a href="#"><img title="Ajuser_v2" src="https://img.shields.io/badge/-Ajuser-red?&style=for-the-badge"></a>
 </p>
@@ -135,7 +135,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![aju](https://github.com/aju001.png?size=100)](https://github.com/aju001)
+  [![aju](https://github.com/TheBlackLion17.png?size=100)](https://github.com/aju001)
 
 [aju](https://github.com/aju001)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
