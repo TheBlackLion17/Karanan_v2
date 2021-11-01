@@ -1,6 +1,6 @@
 <div align="center">
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Karnan_v2+WA+Bot...;Created+by+TheBlackLion17....;This+is+a+Bgm+stickerbot...;With+more+features...)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Karnan_v2+WA+Bot...;Created+by+Aju....;This+is+a+Bgm+stickerbot...;With+more+features...)](https://git.io/typing-svg)
 
 
 <div align="center">
@@ -10,11 +10,11 @@
 </p>
   </p>
 <p align="center">
-<a href="https://github.com/TheBlackLion17"><img title="TheBlackLion17" src="https://img.shields.io/badge/author-TheBlackLion17?color=blue&style=for-the-badge&logo=github"></a>
+<a href="https://github.com/TheBlackLion17"><img title="aju" src="https://img.shields.io/badge/author-TheBlackLion17?color=blue&style=for-the-badge&logo=github"></a>
 
 </div>
 <p align="center">
-Project created by <a href="https://github.com/TheBlackLion17">TheBlackLion17</a> to make it public
+Project created by <a href="https://github.com/TheBlackLion17">aju</a> to make it public
     <br>
        | © |
         Reserved |
@@ -38,7 +38,7 @@ Project created by <a href="https://github.com/TheBlackLion17">TheBlackLion17</a
     
 <p align="center">
 
-<a href="https://instagram.com/__TheBlackLion17z___001?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
+<a href="https://instagram.com/__ajuz___001?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
 
 </p>
 
@@ -135,9 +135,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![TheBlackLion17](https://github.com/TheBlackLion17.png?size=100)](https://github.com/TheBlackLion17)
+  [![aju](https://github.com/TheBlackLion17.png?size=100)](https://github.com/TheBlackLion17)
 
-[TheBlackLion17](https://github.com/TheBlackLion17)  
+[aju](https://github.com/TheBlackLion17)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
   </div>
 
