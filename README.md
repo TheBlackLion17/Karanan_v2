@@ -1,20 +1,20 @@
 <div align="center">
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Ajuser_v2+WA+Bot...;Created+by+Aju....;This+is+a+Bgm+stickerbot...;With+more+features...)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Karnan_v2+WA+Bot...;Created+by+Aju....;This+is+a+Bgm+stickerbot...;With+more+features...)](https://git.io/typing-svg)
 
 
 <div align="center">
   <a href="https://ibb.co/4wyvT9j"><img src="Karnan_V2.png""width="250" height="250"/>
   <p align="center">
-<a href="#"><img title="Ajuser_v2" src="https://img.shields.io/badge/-Ajuser-red?&style=for-the-badge"></a>
+<a href="#"><img title="Karnan_v2" src="https://img.shields.io/badge/-Karnan-red?&style=for-the-badge"></a>
 </p>
   </p>
 <p align="center">
-<a href="https://github.com/aju001"><img title="aju" src="https://img.shields.io/badge/author-aju001?color=blue&style=for-the-badge&logo=github"></a>
+<a href="https://github.com/TheBlackLion17"><img title="aju" src="https://img.shields.io/badge/author-TheBlackLion17?color=blue&style=for-the-badge&logo=github"></a>
 
 </div>
 <p align="center">
-Project created by <a href="https://github.com/aju001">aju</a> to make it public
+Project created by <a href="https://github.com/TheBlackLion17">aju</a> to make it public
     <br>
        | © |
         Reserved |
@@ -24,13 +24,13 @@ Project created by <a href="https://github.com/aju001">aju</a> to make it public
 ----
 
   <p align="center">
-  <a href="https://github.com/aju001/Ajuser_v2 ">
-    <img src="https://img.shields.io/github/repo-size/aju001/Ajuser_v2?color=red&label=Repo%20total%20size&style=flat-square">
+  <a href="https://github.com/TheBlackLion17/Karnan_v2 ">
+    <img src="https://img.shields.io/github/repo-size/TheBlackLion17/Karnan_v2?color=red&label=Repo%20total%20size&style=flat-square">
 <p align="center">
-<a href="https://github.com/aju001/followers"><img title="Followers" src="https://img.shields.io/github/followers/aju001?color=grey&style=plastic"></a>
-<a href="https://github.com/aju001/Ajuser_v2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/aju001/Ajuser?color=grey&style=plastic"></a>
-<a href="https://github.com/aju001/Ajuser_v2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/aju001/Ajuser_v2?color=grey&style=plastic"></a>
-<a href="https://github.com/aju001/Ajuser_v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/aju001/Ajuser_v2?label=Watchers&color=grey&style=flat-circle"></a>
+<a href="https://github.com/TheBlackLion17/followers"><img title="Followers" src="https://img.shields.io/github/followers/TheBlackLion17?color=grey&style=plastic"></a>
+<a href="https://github.com/TheBlackLion17/Karnan_v2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TheBlackLion17/Karnan?color=grey&style=plastic"></a>
+<a href="https://github.com/TheBlackLion17/Karnan_v2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TheBlackLion17/Karnan_v2?color=grey&style=plastic"></a>
+<a href="https://github.com/TheBlackLion17/Karnan_v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TheBlackLion17/Karnan_v2?label=Watchers&color=grey&style=flat-circle"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-red.svg"</a>
 <h3 align="center">Contact Me:</h3>
 
@@ -86,8 +86,8 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/aju001/Ajuser_v2
-$ cd Ajuser_v2
+$ git clone https://github.com/TheBlackLion17/Karnan_v2
+$ cd Karnan_v2
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -96,8 +96,8 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/aju001/Ajuser_v2
-$ cd Ajuser_v2
+$ git clone https://github.com/TheBlackLion17/Karnan_v2
+$ cd Karnan_v2
 $ chmod +x *
 $ npm i
 $ node qr.js
@@ -135,9 +135,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![aju](https://github.com/TheBlackLion17.png?size=100)](https://github.com/aju001)
+  [![TheBlackLion17](https://github.com/TheBlackLion17.png?size=100)](https://github.com/TheBlackLion17)
 
-[aju](https://github.com/aju001)  
+[TheBlackLion17](https://github.com/TheBlackLion17)  
 Base, Bug Fixed Modifiying  as   public | Bug Fixes, Modules
   </div>
 
