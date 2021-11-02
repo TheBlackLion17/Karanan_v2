@@ -1,28 +1,28 @@
 /* Codded by Phaticusthiccy
 
-Karanan, The Phaticusthiccy's Multifunctional Artificial Intelligence
+Eva, The Phaticusthiccy's Multifunctional Artificial Intelligence
 
-Karanan AI has more than 50 Gigabyte dataset which including neural calculator,
+Eva AI has more than 50 Gigabyte dataset which including neural calculator,
 wikipedia data, sentiment analysis, Instagram workflow with neural cells.
 
 Thanks for Brainshop.ai for a rest connection with non-ethernet interaction
-Karanan database. 
+Eva database. 
 
-Karanan is a multimedia-powered artificial intelligence with its own virtual brain.
+Eva is a multimedia-powered artificial intelligence with its own virtual brain.
 Brainshop.ai allow access to load all external conversation for train Neural cells,
 from every user's historical conversations.
 
-Think twice about your choices about Karanan. 
+Think twice about your choices about Eva. 
 May react differently in directed situations. This is completely natural and depends on users.
-All message history with Karanan is not exported to any 3rd applications.
-Since Karanan works entirely with deep learning, all responsibility belongs to the user.
+All message history with Eva is not exported to any 3rd applications.
+Since Eva works entirely with deep learning, all responsibility belongs to the user.
 
-Arvix Articles About Karanan's System:
+Arvix Articles About Eva's System:
 >> https://arxiv.org/abs/2106.09461
 >> https://arxiv.org/abs/2102.00287
 >>https://arxiv.org/abs/2106.06157
 
-Wikipedia Articles About Karanan'a System:
+Wikipedia Articles About Eva'a System:
 >> https://en.m.wikipedia.org/wiki/Optical_character_recognition
 >> https://en.m.wikipedia.org/wiki/Text_mining
 >> https://en.m.wikipedia.org/wiki/Natural_language_processing
@@ -30,12 +30,12 @@ Wikipedia Articles About Karanan'a System:
 */
 // ===================================================
 /*
-Karanan has never been connected to the internet previously.
-The Brainshop.ai supports to javascript datasets, so thats way we cloned some datas from Karanan to 
+Eva has never been connected to the internet previously.
+The Brainshop.ai supports to javascript datasets, so thats way we cloned some datas from Eva to 
 Brainshop.ai. 
 
-Therefore, 100% efficiency cannot be obtained from Karanan Artificial Intelligence.
-The voice recognition doesn't work with Karanan infrastructure.
+Therefore, 100% efficiency cannot be obtained from Eva Artificial Intelligence.
+The voice recognition doesn't work with eva infrastructure.
 We are using wit.ai's voice recognition for voicy conversation.
 The all input datas must be english. We are using google translate before send users inputs.
 */
@@ -64,16 +64,16 @@ let baseURI = '/apps/' + conf.HEROKU.APP_NAME;
 
 let wk = conf.WORKTYPE == 'public' ? false : true
 var vtalk_dsc = ''
-var reply_Karanan = ''
-if (conf.LANG == 'TR') vtalk_dsc = 'Karanan sesli sohbetini başlatır.', reply_Karanan = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
-if (conf.LANG == 'EN') vtalk_dsc = 'Starts to pinky voice chat.', reply_Karanan = '*Reply to Any Voice Message!*'
-if (conf.LANG == 'AZ') vtalk_dsc = 'Karanan səsli söhbətinə başlayır.', reply_Karanan = '*Hər hansı bir səsli mesaja cavab verin!*'
-if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Karanan.', reply_Karanan = '*Responder a qualquer mensagem de voz!*'
-if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Karanan.', reply_Karanan = '*Ответьте на любое голосовое сообщение!*'
-if (conf.LANG == 'HI') vtalk_dsc = 'Karanan ध्वनि चैट प्रारंभ करता है', reply_Karanan = '*किसी भी ध्वनि संदेश का उत्तर दें!*'
-if (conf.LANG == 'ES') vtalk_dsc = 'Comienza con el chat de voz de Karanan.', reply_Karanan = '*¡Responde a cualquier mensaje de voz!*'
-if (conf.LANG == 'ML') vtalk_dsc = 'Karanan വോയ്‌സ് ചാറ്റിലേക്ക് ആരംഭിക്കുന്നു.', reply_Karanan = '*ഏത് വോയ്‌സ് സന്ദേശത്തിനും മറുപടി നൽകുക!*'
-if (conf.LANG == 'ID') vtalk_dsc = 'Mulai obrolan suara Karanan.', reply_Karanan = '*Balas Pesan Suara Apapun!*'
+var reply_eva = ''
+if (conf.LANG == 'TR') vtalk_dsc = 'Eva sesli sohbetini başlatır.', reply_eva = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
+if (conf.LANG == 'EN') vtalk_dsc = 'Starts to pinky voice chat.', reply_eva = '*Reply to Any Voice Message!*'
+if (conf.LANG == 'AZ') vtalk_dsc = 'Eva səsli söhbətinə başlayır.', reply_eva = '*Hər hansı bir səsli mesaja cavab verin!*'
+if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Eva.', reply_eva = '*Responder a qualquer mensagem de voz!*'
+if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Eva.', reply_eva = '*Ответьте на любое голосовое сообщение!*'
+if (conf.LANG == 'HI') vtalk_dsc = 'Eva ध्वनि चैट प्रारंभ करता है', reply_eva = '*किसी भी ध्वनि संदेश का उत्तर दें!*'
+if (conf.LANG == 'ES') vtalk_dsc = 'Comienza con el chat de voz de Eva.', reply_eva = '*¡Responde a cualquier mensaje de voz!*'
+if (conf.LANG == 'ML') vtalk_dsc = 'Eva വോയ്‌സ് ചാറ്റിലേക്ക് ആരംഭിക്കുന്നു.', reply_eva = '*ഏത് വോയ്‌സ് സന്ദേശത്തിനും മറുപടി നൽകുക!*'
+if (conf.LANG == 'ID') vtalk_dsc = 'Mulai obrolan suara Eva.', reply_eva = '*Balas Pesan Suara Apapun!*'
 
 const recognizeAudio = () => {
     const headers = new Headers({
@@ -99,7 +99,7 @@ const convertToWav = file => {
 }
 
 Asena.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
-    if (message.message.startsWith('bot') && conf.FULLKaranan !== 'true') {        
+    if (message.message.startsWith('bot') && conf.FULLEVA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
         let acc = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0] == 'Asena' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
         let aitalk_mode = message.message.includes('{normal}') ? 'raw' : 'waifu'
@@ -128,7 +128,7 @@ Asena.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteComman
     }
 }));
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-        if (conf.FULLKaranan == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
+        if (conf.FULLEVA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
@@ -217,7 +217,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
 
 }));
 Asena.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, fromMe: wk }, (async (message, match) => {
-    if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_Karanan, MessageType.text, { quoted: message.data }) 
+    if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_eva, MessageType.text, { quoted: message.data }) 
     try {
         const file = await message.client.downloadAndSaveMediaMessage({
             key: {
@@ -265,98 +265,98 @@ Asena.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, 
         });
     } catch (err) { console.log(err) }
 }));
-var fullKaranan_dsc = ''
+var fulleva_dsc = ''
 var already_on = ''
 var already_off = ''
 var succ_on = ''
 var succ_off = ''
 if (conf.LANG == 'TR') {
-    fullKaranan_dsc = 'Tam fonksiyonel Karanan özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
-    already_on = 'Karanan yapay zekası halihazırda tüm fonksiyonları etkin.'
-    already_off = 'Karanan yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
-    succ_on = 'Karanan, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
-    succ_off = 'Karanan, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
+    fulleva_dsc = 'Tam fonksiyonel Eva özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
+    already_on = 'Eva yapay zekası halihazırda tüm fonksiyonları etkin.'
+    already_off = 'Eva yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
+    succ_on = 'Eva, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
+    succ_off = 'Eva, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fullKaranan_dsc = 'Activates full functional Zara features. Turn your account into a ai chatbot!'
-    already_on = 'Karanan artificial intelligence is already fully functional.'
-    already_off = 'Karanan artificial intelligence is currently running semi-functional.'
-    succ_on = 'Karanan Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Karanan Set to Semi-Functional! Please wait a bit! ☑️'
+    fulleva_dsc = 'Activates full functional Zara features. Turn your account into a ai chatbot!'
+    already_on = 'Ajuser artificial intelligence is already fully functional.'
+    already_off = 'Ajuser artificial intelligence is currently running semi-functional.'
+    succ_on = 'Ajuser Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Ajuser Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'AZ') {
-    fullKaranan_dsc = 'Tam funksional Karanan xüsusiyyətlərini aktivləşdirir. Hesabınızı bir chatbot halına gətirin!'
-    already_on = 'Karanan süni intellekt onsuz da tam işlək vəziyyətdədir.'
-    already_off = 'Karanan AI hazırda yarı funksionaldır.'
-    succ_on = 'Karanan Tamamilə İşlədi! Xahiş edirəm bir az gözləyin! ✅'
-    succ_off = 'Karanan Yarı İşləkdir! Xahiş edirəm bir az gözləyin! ☑️'
+    fulleva_dsc = 'Tam funksional Eva xüsusiyyətlərini aktivləşdirir. Hesabınızı bir chatbot halına gətirin!'
+    already_on = 'Eva süni intellekt onsuz da tam işlək vəziyyətdədir.'
+    already_off = 'Eva AI hazırda yarı funksionaldır.'
+    succ_on = 'Eva Tamamilə İşlədi! Xahiş edirəm bir az gözləyin! ✅'
+    succ_off = 'Eva Yarı İşləkdir! Xahiş edirəm bir az gözləyin! ☑️'
 }
 if (conf.LANG == 'RU') {
-    fullKaranan_dsc = 'Активирует полнофункциональные функции Karanan. Превратите свой аккаунт в чат-бота!'
-    already_on = 'Искусственный интеллект Karanan уже полностью функционален.'
-    already_off = 'Karanan AI в настоящее время частично функционирует'
-    succ_on = 'Karanan открылась полностью функционально! Подождите немного! ✅'
-    succ_off = 'Karanan настроена на полуфункциональность! Подождите немного! ☑️'
+    fulleva_dsc = 'Активирует полнофункциональные функции Eva. Превратите свой аккаунт в чат-бота!'
+    already_on = 'Искусственный интеллект Eva уже полностью функционален.'
+    already_off = 'Eva AI в настоящее время частично функционирует'
+    succ_on = 'Eva открылась полностью функционально! Подождите немного! ✅'
+    succ_off = 'Eva настроена на полуфункциональность! Подождите немного! ☑️'
 }
 if (conf.LANG == 'ES') {
-    fullKaranan_dsc = 'Activa todas las funciones funcionales de Karanan. ¡Convierta su cuenta en un chatbot!'
-    already_on = 'La inteligencia artificial de Karanan ya es completamente funcional.'
-    already_off = 'Karanan AI es actualmente semi-funcional.'
-    succ_on = '¡Karanan abrió completamente funcionalmente! ¡Por favor espere un poco! ✅'
-    succ_off = '¡Karanan se pone semifuncional! ¡Por favor espere un poco! ☑️'
+    fulleva_dsc = 'Activa todas las funciones funcionales de Eva. ¡Convierta su cuenta en un chatbot!'
+    already_on = 'La inteligencia artificial de Eva ya es completamente funcional.'
+    already_off = 'Eva AI es actualmente semi-funcional.'
+    succ_on = '¡Eva abrió completamente funcionalmente! ¡Por favor espere un poco! ✅'
+    succ_off = '¡Eva se pone semifuncional! ¡Por favor espere un poco! ☑️'
 }
 if (conf.LANG == 'HI') {
-    fullKaranan_dsc = 'पूरी तरह कार्यात्मक Karanan सुविधाओं को सक्रिय करता है। अपने खाते को चैटबॉट में बदलें!'
+    fulleva_dsc = 'पूरी तरह कार्यात्मक Eva सुविधाओं को सक्रिय करता है। अपने खाते को चैटबॉट में बदलें!'
     already_on = 'ईवा आर्टिफिशियल इंटेलिजेंस पहले से ही पूरी तरह कार्यात्मक है'
     already_off = 'ईवा एआई वर्तमान में अर्ध-कार्यात्मक है'
     succ_on = 'ईवा पूरी तरह कार्यात्मक रूप से खुल गई! कृपया थोड़ी प्रतीक्षा करें! ✅'
     succ_off = 'अर्ध-कार्यात्मक करने के लिए ईवा सेट! कृपया थोड़ी प्रतीक्षा करें! ☑️'
 }
 if (conf.LANG == 'ML') {
-    fullKaranan_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Karanan സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
-    already_on = 'കർണൻ കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
-    already_off = 'കർണൻ  AI നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
-    succ_on = 'കർണൻ പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
-    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി കർണൻ  സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
+    fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Eva സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
+    already_on = 'ഇവ കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
+    already_off = 'ഇവാ AI നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
+    succ_on = 'ഇവ പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
+    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി ഇവാ സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 if (conf.LANG == 'PT') {
-    fullKaranan_dsc = 'Ativa recursos Karanan totalmente funcionais. Transforme sua conta em um chatbot!'
-    already_on = 'A inteligência artificial Karanan já está totalmente funcional.'
-    already_off = 'Karanan AI está semi-funcional.'
-    succ_on = 'Karanan abriu totalmente funcionalmente! Por favor espere um pouco! ✅'
-    succ_off = 'Karanan definida como semi-funcional! Por favor espere um pouco! ☑️'
+    fulleva_dsc = 'Ativa recursos Eva totalmente funcionais. Transforme sua conta em um chatbot!'
+    already_on = 'A inteligência artificial Eva já está totalmente funcional.'
+    already_off = 'Eva AI está semi-funcional.'
+    succ_on = 'Eva abriu totalmente funcionalmente! Por favor espere um pouco! ✅'
+    succ_off = 'Eva definida como semi-funcional! Por favor espere um pouco! ☑️'
 }
 if (conf.LANG == 'ID') {
-    fullKaranan_dsc = 'Mengaktifkan fitur Karanan yang berfungsi penuh. Ubah akun Anda menjadi chatbot!'
-    already_on = 'Kecerdasan buatan Karanan sudah berfungsi penuh.'
-    already_off = 'Karanan AI saat ini semi-fungsional.'
-    succ_on = 'Karanan Dibuka Sepenuhnya Secara Fungsional! Harap tunggu sebentar! ✅'
-    succ_off = 'Karanan Set ke Semi-Fungsional! Mohon tunggu sebentar! ☑️'
+    fulleva_dsc = 'Mengaktifkan fitur Eva yang berfungsi penuh. Ubah akun Anda menjadi chatbot!'
+    already_on = 'Kecerdasan buatan Eva sudah berfungsi penuh.'
+    already_off = 'Eva AI saat ini semi-fungsional.'
+    succ_on = 'Eva Dibuka Sepenuhnya Secara Fungsional! Harap tunggu sebentar! ✅'
+    succ_off = 'Eva Set ke Semi-Fungsional! Mohon tunggu sebentar! ☑️'
 }
 
-Asena.addCommand({ pattern: 'fullKaranan ?(.*)', desc: fullKaranan_dsc, fromMe: true,dontAddCommandList: true, usage: '.fullKaranan on / off' }, (async (message, match) => {
-    var Karanan_status = `${conf.FULLKaranan}`
+Asena.addCommand({ pattern: 'fulleva ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.fulleva on / off' }, (async (message, match) => {
+    var eva_status = `${conf.FULLEVA}`
     if (match[1] == 'on') {
-        if (Karanan_status == 'true') {
+        if (eva_status == 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_on + '*', MessageType.text)
         }
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['FULL_Karanan']: 'true'
+                    ['FULL_EVA']: 'true'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_on + '*', MessageType.text)
         }
     }
     else if (match[1] == 'off') {
-        if (Karanan_status !== 'true') {
+        if (eva_status !== 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_off + '*', MessageType.text)
         }
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['FULL_Karanan']: 'false'
+                    ['FULL_EVA']: 'false'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
